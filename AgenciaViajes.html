@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Agencia de viajes FTC</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>
+			Agencia de viajes FTC
+		</h1>
+	</header>
+	<br>
+	<br>
+	<div class="intro">
+		<h3>
+			Edimburgo: La ciudad de los Highlanders
+		</h3>
+		<p>
+			Edimburgo es la capital de Escocia; una ciudad repleta de historia, cultura, atracciones inigualables y una hermosa arquitectura. Recorre sus calles adoquinadas, sus misteriosos callejones, sus festivales de fama mundial y disfruta de su deliciosa gastronom&iacute;a en sus restaurantes y cafeter&iacute;as. Descubre todo lo que hace a Edimburgo tan especial, desde su estatus como Ciudad de la Literatura de la UNESCO, su t&iacute;tulo de Patrimonio de la Humanidad declarado por la UNESCO, hasta su designaci&oacute;n como una de las mejores ciudades del mundo seg&uacute;n Time Out.
+		</p>
+	</div>
+	<br>
+	<div class="fotitos">
+		<img src="https://escociatours.com/wp-content/uploads/2023/12/Portada-1.jpg">
+		<img src="https://viajarporescocia.com/contenido/uploads/001_edimburgo_principal-1024x683.jpg">
+		<img src="https://aleviajando.com/wp-content/uploads/2020/10/dscf6012.jpg?w=1024">
+	</div>
+	<br>
+	<br>
+	<div class="actividades">
+		<h4>
+			¿Qu&eacute; actividades vamos a hacer en Edimburgo?
+		</h4>
+		<p>Edimburgo es conocida por su castillo, su naturaleza y su historia de lucha por la independencia. No te pierdas ninguna de estas cosas:</p>
+		<ul>
+			<li>
+				Pasea por la <b>Old Town</b> (Ciudad Vieja), el barrio m&aacute;s c&eacute;lebre de la ciudad, donde podr&aacute;s encontrar museos, tienda de souvenirs, artistas callejeros, pubs...
+			</li>
+			<li>
+				Visita el <b>Edinburgh Castle</b> (Castillo de Edimburgo), todo un s&iacute;mbolo del pa&iacute;s y de lo que representa la gente escocesa.
+			</li>
+			<li>
+				Visita la <b>Victoria Street</b> y el <b>Grassmarket</b>. Anda por esta calle llena de colores, de la que se dice que se inspiraron para hacer Harry Potter, y llegar&aacute;s al Grassmarket, un antiguo mercado de ganado y artesanos con una oscura historia...
+			</li>
+			<li>
+				Paseo por la <b>Princess Street</b> y sus jardines. Esta calle es la avenida principal de la New Town (Ciudad nueva), y una de las calles m&aacute;s bulliciosas de la capital. Sin embargo, en su parte sur se encuentrar los jardines de Princess St., que son pura naturaleza y tranquilidad.
+			</li>
+		</ul>
+	</div>
+	<br>
+	<center>
+		<h3>El precio total del viaje son 500€</h3>
+		<h3>¿A qu&eacute; esperas? ¡Ap&uacute;ntate!</h3>
+	</center>
+	
+	<fieldset>
+            <legend><b>Reserva tu plaza</b></legend>
+            <br>
+            <form name="formulario1" action="" method="get">
+                <label for="guardarNombre">Nombre:</label>
+                <input type="text" name="guardarNombre" placeholder="Indica tu nombre" pattern="[a-zA-Z]{1.40}" required="true">
+                <br>
+                <br>
+
+                <label for="guardarApellidos">Apellidos:</label>
+                <input type="text" name="guardarApellidos" placeholder="Indica tus apellidos" required="true"> 
+                <br>
+                <br>
+
+                <label for="guardarTlf">Tel&eacute;fono:</label>
+                <input type="text" name="guardarTlf" placeholder="Indica tu tel&eacute;fono" pattern="[0-9]{9}">
+                <br>
+                <br>
+                <label for="guardarCorreo">Correo electr&oacute;nico:</label>
+                <input type="text" name="guardarCorreo" placeholder="Indica tu correo">
+                <br>
+                <br>
+                <label for="guardarGenero"><b>Selecciona tu g&eacute;nero</b></label>
+                <br>
+                <br>
+                <input type="radio" name="guardarGenero" value="Masculino">Masculino 
+                <input type="radio" name="guardarGenero" value="Femenino">Femenino
+                <input type="radio" name="guardarGenero" value="NoBinario">No Binario
+                <br>
+                <br>
+                <button value="EnviarDatos">Reservar plaza</button>
+            </form>
+        </fieldset>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h3, h4 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+h3, h4 {
+    color: #004080;
+}
+
+.intro, .actividades {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fotitos {
+    text-align: center;
+}
+
+.fotitos img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 40px;
+    line-height: 1.6;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+fieldset {
+    border: 2px solid #004080;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+legend {
+    font-size: 1.2em;
+    padding: 0 10px;
+    color: #004080;
+}
+
+input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="radio"] {
+    margin: 0 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003060;
+}
+
+@media (max-width: 750px) {
+    .fotitos img {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    h3, h4 {
+        font-size: 1.2em;
+    }
+}
